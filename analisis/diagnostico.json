@@ -1,0 +1,270 @@
+{
+  "fuente": "https://www.kaggle.com/datasets/ahmedmohamed2003/retail-store-sales-dirty-for-data-cleaning",
+  "registros_originales": 12575,
+  "nulos_por_columna": {
+    "Transaction ID": 0,
+    "Customer ID": 0,
+    "Category": 0,
+    "Item": 1213,
+    "Price Per Unit": 609,
+    "Quantity": 604,
+    "Total Spent": 604,
+    "Payment Method": 0,
+    "Location": 0,
+    "Transaction Date": 0,
+    "Discount Applied": 4199
+  },
+  "celdas_nulas": 7229,
+  "ids_duplicados": 0,
+  "precio_derivado": 609,
+  "articulo_inferido": 1213,
+  "registros_limpios": 11971,
+  "registros_rechazados": 604,
+  "motivos_rechazo": {
+    "Importe/cantidad no recuperable": 604
+  },
+  "descuento_desconocido_limpios": 3988,
+  "ingresos_validados": 1552071.0,
+  "ticket_medio": 129.6525770612313,
+  "por_categoria": [
+    {
+      "grupo": "Beverages",
+      "transacciones": 1496,
+      "ingresos": 197047.5
+    },
+    {
+      "grupo": "Butchers",
+      "transacciones": 1496,
+      "ingresos": 208118.0
+    },
+    {
+      "grupo": "Computers and electric accessories",
+      "transacciones": 1477,
+      "ingresos": 190692.5
+    },
+    {
+      "grupo": "Electric household essentials",
+      "transacciones": 1516,
+      "ingresos": 203813.5
+    },
+    {
+      "grupo": "Food",
+      "transacciones": 1507,
+      "ingresos": 194812.0
+    },
+    {
+      "grupo": "Furniture",
+      "transacciones": 1525,
+      "ingresos": 195310.0
+    },
+    {
+      "grupo": "Milk Products",
+      "transacciones": 1513,
+      "ingresos": 180112.0
+    },
+    {
+      "grupo": "Patisserie",
+      "transacciones": 1441,
+      "ingresos": 182165.5
+    }
+  ],
+  "por_mes": [
+    {
+      "grupo": "2022-01",
+      "transacciones": 368,
+      "ingresos": 52911.5
+    },
+    {
+      "grupo": "2022-02",
+      "transacciones": 313,
+      "ingresos": 43325.5
+    },
+    {
+      "grupo": "2022-03",
+      "transacciones": 339,
+      "ingresos": 40996.0
+    },
+    {
+      "grupo": "2022-04",
+      "transacciones": 334,
+      "ingresos": 40442.0
+    },
+    {
+      "grupo": "2022-05",
+      "transacciones": 315,
+      "ingresos": 40347.5
+    },
+    {
+      "grupo": "2022-06",
+      "transacciones": 321,
+      "ingresos": 42576.0
+    },
+    {
+      "grupo": "2022-07",
+      "transacciones": 349,
+      "ingresos": 44471.5
+    },
+    {
+      "grupo": "2022-08",
+      "transacciones": 331,
+      "ingresos": 41333.5
+    },
+    {
+      "grupo": "2022-09",
+      "transacciones": 337,
+      "ingresos": 46113.5
+    },
+    {
+      "grupo": "2022-10",
+      "transacciones": 303,
+      "ingresos": 38355.0
+    },
+    {
+      "grupo": "2022-11",
+      "transacciones": 328,
+      "ingresos": 41256.5
+    },
+    {
+      "grupo": "2022-12",
+      "transacciones": 287,
+      "ingresos": 38201.0
+    },
+    {
+      "grupo": "2023-01",
+      "transacciones": 362,
+      "ingresos": 48052.5
+    },
+    {
+      "grupo": "2023-02",
+      "transacciones": 299,
+      "ingresos": 39214.5
+    },
+    {
+      "grupo": "2023-03",
+      "transacciones": 290,
+      "ingresos": 38534.5
+    },
+    {
+      "grupo": "2023-04",
+      "transacciones": 308,
+      "ingresos": 38905.5
+    },
+    {
+      "grupo": "2023-05",
+      "transacciones": 318,
+      "ingresos": 40480.5
+    },
+    {
+      "grupo": "2023-06",
+      "transacciones": 336,
+      "ingresos": 42474.0
+    },
+    {
+      "grupo": "2023-07",
+      "transacciones": 356,
+      "ingresos": 45632.5
+    },
+    {
+      "grupo": "2023-08",
+      "transacciones": 307,
+      "ingresos": 38592.0
+    },
+    {
+      "grupo": "2023-09",
+      "transacciones": 319,
+      "ingresos": 41069.0
+    },
+    {
+      "grupo": "2023-10",
+      "transacciones": 293,
+      "ingresos": 38322.0
+    },
+    {
+      "grupo": "2023-11",
+      "transacciones": 290,
+      "ingresos": 37014.0
+    },
+    {
+      "grupo": "2023-12",
+      "transacciones": 330,
+      "ingresos": 43021.0
+    },
+    {
+      "grupo": "2024-01",
+      "transacciones": 363,
+      "ingresos": 47908.5
+    },
+    {
+      "grupo": "2024-02",
+      "transacciones": 304,
+      "ingresos": 37145.0
+    },
+    {
+      "grupo": "2024-03",
+      "transacciones": 336,
+      "ingresos": 42861.5
+    },
+    {
+      "grupo": "2024-04",
+      "transacciones": 311,
+      "ingresos": 46271.0
+    },
+    {
+      "grupo": "2024-05",
+      "transacciones": 345,
+      "ingresos": 43766.5
+    },
+    {
+      "grupo": "2024-06",
+      "transacciones": 334,
+      "ingresos": 44721.0
+    },
+    {
+      "grupo": "2024-07",
+      "transacciones": 334,
+      "ingresos": 41405.0
+    },
+    {
+      "grupo": "2024-08",
+      "transacciones": 354,
+      "ingresos": 43362.0
+    },
+    {
+      "grupo": "2024-09",
+      "transacciones": 328,
+      "ingresos": 42161.5
+    },
+    {
+      "grupo": "2024-10",
+      "transacciones": 338,
+      "ingresos": 42736.5
+    },
+    {
+      "grupo": "2024-11",
+      "transacciones": 332,
+      "ingresos": 44076.0
+    },
+    {
+      "grupo": "2024-12",
+      "transacciones": 357,
+      "ingresos": 48466.5
+    },
+    {
+      "grupo": "2025-01",
+      "transacciones": 202,
+      "ingresos": 25548.5
+    }
+  ],
+  "por_canal": [
+    {
+      "grupo": "In-store",
+      "transacciones": 5903,
+      "ingresos": 760670.0
+    },
+    {
+      "grupo": "Online",
+      "transacciones": 6068,
+      "ingresos": 791401.0
+    }
+  ]
+}
